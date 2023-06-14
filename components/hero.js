@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Container from "./container";
-import heroImg from "../public/img/951y_qgjn_210929.jpg";
+import heroImg from "../public/img/8z0s_imbw_210723.png";
 
 const Hero = () => {
   return (
@@ -9,10 +9,10 @@ const Hero = () => {
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-              Jualan Odading segala macam rasa
+            SEBAR BERKAH QURBAN (SBQ)
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              Dapatkan bonus 10pcs pada pembelian diatas 100pcs, setiap macam rasa odading selalu ada kejutan hari demi hari.
+              Mudahkan niat berqurban anda dengan pelayanan yang terorientasi melayani umat islam dalam memenuhi kebutuhan berqurban untuk Lebaran Idhul Adha
             </p>
 
              
