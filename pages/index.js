@@ -11,6 +11,9 @@ import Testimonials from "../components/testimonials";
 import Cta from "../components/cta";
 import Faq from "../components/faq";
 import PopupWidget from "../components/popupWidget";
+import { useRef } from "react";
+
+
 
 const Home = () => {
   return (
