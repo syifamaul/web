@@ -1,0 +1,14 @@
+{
+  "cssImports": {
+    "D:\\js example\\web\\app\\layout.tsx": [
+      "D:\\js example\\web\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "D:\\js example\\web\\app\\globals.css"
+    ]
+  },
+  "cssModules": {
+    "D:\\js example\\web\\app\\page": [
+      "D:\\js example\\web\\app\\globals.css",
+      "D:\\js example\\web\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+    ]
+  }
+}
