@@ -21,7 +21,7 @@ const Home = () => {
           name="description"
           content="Personal Web"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/goat.png" />
       </Head>
 
       <Navbar />
@@ -50,7 +50,7 @@ const Home = () => {
       <Faq />
       {/* <Cta /> */}
       <Footer />
-      <PopupWidget />
+      {/* <PopupWidget /> */}
     </>
   );
 }
