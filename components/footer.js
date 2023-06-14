@@ -5,11 +5,9 @@ import Container from "./container";
 
 export default function Footer() {
   const navigation = [
-    "Product",
-    "Features",
-    "Pricing",
-    "Company",
-    "Blog",
+    "Branda",
+    "Daftar Harga",
+    "Booking"
   ];
   const legal = ["Terms", "Privacy", "Legal"];
   return (

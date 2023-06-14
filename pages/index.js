@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>[Personal Web]</title>
+        <title>[Husni Qurban]</title>
         <meta
           name="description"
           content="Personal Web"
@@ -27,14 +27,14 @@ const Home = () => {
       <Navbar />
       <Hero />
       <SectionTitle
-        pretitle="Nextly Benefits"
+        pretitle="Keuntungan Berqurban"
         title=" Why should you use this landing page">
         Nextly is a free landing page & marketing website template for startups
         and indie projects. Its built with Next.js & TailwindCSS. And its
         completely open-source.
       </SectionTitle>
-      <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
+      {/* <Benefits data={benefitOne} />
+      <Benefits imgPos="right" data={benefitTwo} /> */}
        
       <SectionTitle
         pretitle="Testimonials"
