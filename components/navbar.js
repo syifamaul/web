@@ -87,8 +87,8 @@ const Navbar = () => {
         </div>
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
-          <Link href="/" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
-              Beli Sekarang
+          <Link href="https://wa.me/+6281319565200?Text=Saya ingin membeli kambing" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
+              Chat Via Whatsapp
           </Link>
 
           <ThemeChanger />
