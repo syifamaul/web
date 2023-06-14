@@ -31,7 +31,7 @@ const Navbar = () => {
                         className="w-8"
                       />
                     </span>
-                    <span>Imam</span>
+                    <span>Imam Odading</span>
                   </span>
                 </Link>
 
