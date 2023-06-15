@@ -2,7 +2,7 @@ import Image from "next/image";
 import Container from "./container";
 import heroImg from "../public/img/8z0s_imbw_210723.png";
 import img1 from "../public/img/white-goat-standing-farm.jpg";
-import img2 from "../public/img/Cover-Web-Blog-3.jpg";
+import img2 from "../public/img/_kambing jantan jawa muda.jpg";
 import img3 from "../public/img/kambing.jpeg";
 import img4 from "../public/img/7e8dd6904f6a1dab3f7a8b09d674dc0f.jpg";
 import img5 from "../public/img/20220203134758-1-kambing-etawa-kaligesing-004-shani-rasyid.jpeg";
@@ -46,7 +46,7 @@ const Hero = () => {
 
           <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
             <div className="pt-2 text-gray-400 dark:text-gray-400">
-              <center>Kambing Class C</center>
+             <h4><center>Kambing Class C</center></h4>
               <Image src={img1} height={80} width={200}></Image>
 
             </div>
@@ -56,18 +56,17 @@ const Hero = () => {
 
             </div>
             <div className="text-gray-400 dark:text-gray-400">
-              <center>Kambing Class A</center>
+            <h4><center>Kambing Class A</center></h4>
               <Image src={img3} height={80} width={200}></Image>
 
             </div>
             <div className="text-gray-400 dark:text-gray-400">
-              <center>Domba</center>
+            <h4> <center>Domba</center></h4>
               
               <Image src={img4} height={80} width={200}></Image>
             </div>
             <div className="text-gray-400 dark:text-gray-400">
-              <center>Kambing Super</center>
-
+              <h4><center>Kambing Super</center></h4>
               <Image src={img5} height={80} width={200}></Image>
 
             </div>
