@@ -9,7 +9,8 @@ export default function Footer() {
     "Daftar Harga",
     "Booking"
   ];
-  const legal = ["Terms", "Privacy", "Legal"];
+  // const legal = ["Terms", "Privacy", "Legal"];
+  const legal = [];
   return (
     <div className="relative">
       <Container>
