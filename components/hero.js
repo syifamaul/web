@@ -74,6 +74,11 @@ const Hero = () => {
               <strong><center>5.200.000 - 7.000.000</center></strong>
 
             </div>
+            <div className="text-xl text-center text-gray-700 dark:text-white">
+              Lokasi alamat :
+              <br />
+              Jalan Mampang Prapatan XV Jakarta Selatan.
+            </div>
           </div>
         </div>
       </Container>
