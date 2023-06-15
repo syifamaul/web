@@ -19,8 +19,8 @@ const Testimonials  = () => {
 
             <Avatar
               image={userOneImg}
-              name="Sarah Steiner"
-              title="VP Sales at Google"
+              name="Ahmad Fauzan"
+              title="Director of Google"
             />
           </div>
         </div>
@@ -33,8 +33,8 @@ const Testimonials  = () => {
 
             <Avatar
               image={userTwoImg}
-              name="Dylan Ambrose"
-              title="Lead marketer at Netflix"
+              name="Iis"
+              title="Owner Painter"
             />
           </div>
         </div>
@@ -47,8 +47,8 @@ const Testimonials  = () => {
 
             <Avatar
               image={userThreeImg}
-              name="Gabrielle Winn"
-              title="Co-founder of Acme Inc"
+              name="Obay"
+              title="Co-founder of JULO"
             />
           </div>
         </div>
