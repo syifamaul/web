@@ -2,7 +2,7 @@ import Image from "next/image";
 import Container from "./container";
 import heroImg from "../public/img/8z0s_imbw_210723.png";
 import img1 from "../public/img/white-goat-standing-farm.jpg";
-import img2 from "../public/img/_kambing jantan jawa muda.jpg";
+import img2 from "../public/img/_kambing_jawa.jpg";
 import img3 from "../public/img/kambing.jpeg";
 import img4 from "../public/img/7e8dd6904f6a1dab3f7a8b09d674dc0f.jpg";
 import img5 from "../public/img/20220203134758-1-kambing-etawa-kaligesing-004-shani-rasyid.jpeg";
