@@ -25,6 +25,8 @@ const Home = () => {
           content="Personal Web"
         />
         <link rel="icon" href="/goat.png" />
+        <link rel="manifest" href="/manifest.json" />
+
       </Head>
 
       <Navbar />

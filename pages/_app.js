@@ -3,7 +3,6 @@ import "../css/tailwind.css";
 import { useEffect } from "react"
 
 function MyApp({ Component, pageProps }) {
-
   useEffect(() => {
     if("serviceWorker" in navigator) {
       window.addEventListener("load", function () {

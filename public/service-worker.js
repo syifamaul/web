@@ -19,19 +19,33 @@ const fetchEvent = () => {
   });
 };
 
-fetchEvent();
 
 
 const installEvent = () => {
     self.addEventListener('install', () => {
       console.log('service worker installed');
     });
-  };
-  installEvent();
+};
+  
+
+self.addEventListener("install", (event) => {
+    event.waitUntil(
+      caches
+        .open("v1")
+        .then((cache) =>
+          cache.addAll([
+            "/"])
+        )
+    );
+  });
   
   const activateEvent = () => {
     self.addEventListener('activate', () => {
       console.log('service worker activated');
     });
-  };
-  activateEvent();
+};
+  
+activateEvent();
+fetchEvent();
+installEvent();
+  
