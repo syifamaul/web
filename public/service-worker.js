@@ -22,22 +22,24 @@ const fetchEvent = () => {
 
 
 const installEvent = () => {
-    self.addEventListener('install', () => {
-      console.log('service worker installed');
+    // self.addEventListener('install', () => {
+    //   console.log('service worker installed');
+    // });
+
+    self.addEventListener("install", (event) => {
+        console.log('service worker installed');
+
+        event.waitUntil(
+        caches
+            .open("v1")
+            .then((cache) =>
+            cache.addAll(["/"])
+            )
+        );
     });
 };
   
 
-self.addEventListener("install", (event) => {
-    event.waitUntil(
-      caches
-        .open("v1")
-        .then((cache) =>
-          cache.addAll([
-            "/"])
-        )
-    );
-  });
   
   const activateEvent = () => {
     self.addEventListener('activate', () => {
