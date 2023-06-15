@@ -40,8 +40,7 @@ const Home = () => {
       <SectionTitle
         pretitle="Testimonials"
         title="Here's what our customers said">
-        Testimonails is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+       Beberapa review pembeli yang telah merasakan kepuasan berbelanja hewan qurban disini.
       </SectionTitle>
       <Testimonials />
       {/* <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
