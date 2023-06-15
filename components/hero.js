@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Container from "./container";
 import heroImg from "../public/img/8z0s_imbw_210723.png";
+import img1 from "../public/img/white-goat-standing-farm.jpg";
+import img2 from "../public/img/Cover-Web-Blog-3.jpg";
+import img3 from "../public/img/kambing.jpeg";
+import img4 from "../public/img/7e8dd6904f6a1dab3f7a8b09d674dc0f.jpg";
+import img5 from "../public/img/20220203134758-1-kambing-etawa-kaligesing-004-shani-rasyid.jpeg";
+
 
 const Hero = () => {
   return (
@@ -40,19 +46,30 @@ const Hero = () => {
 
           <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
             <div className="pt-2 text-gray-400 dark:text-gray-400">
-              Domba
+              <center>Kambing Class C</center>
+              <Image src={img1} height={80} width={200}></Image>
+
             </div>
             <div className="text-gray-400 dark:text-gray-400">
-              Kambing Class A
+              <center>Kambing Class B</center>
+              <Image src={img2} height={80} width={200}></Image>
+
             </div>
             <div className="text-gray-400 dark:text-gray-400">
-              Kambing Class B
+              <center>Kambing Class A</center>
+              <Image src={img3} height={80} width={200}></Image>
+
             </div>
-            <div className="pt-1 text-gray-400 dark:text-gray-400">
-              Kambing Class C
+            <div className="text-gray-400 dark:text-gray-400">
+              <center>Domba</center>
+              
+              <Image src={img4} height={80} width={200}></Image>
             </div>
-            <div className="pt-2 text-gray-400 dark:text-gray-400">
-              Kambing Super
+            <div className="text-gray-400 dark:text-gray-400">
+              <center>Kambing Super</center>
+
+              <Image src={img5} height={80} width={200}></Image>
+
             </div>
           </div>
         </div>
