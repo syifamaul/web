@@ -32,7 +32,7 @@ const Home = () => {
       <SectionTitle
         pretitle="Keuntungan Berqurban"
         title=" PILIH HEWAN SEBAR QURBAN ANDA ">
-        Anda tidak akan kecewa dengan kambing atau sapi pilihan kami. Dijamin!.
+        Anda tidak akan kecewa dengan kambing atau domba pilihan kami. Dijamin!.
       </SectionTitle>
       {/* <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} /> */}
@@ -44,11 +44,11 @@ const Home = () => {
         Use this section to highlight your popular customers.
       </SectionTitle>
       <Testimonials />
-      <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
+      {/* <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
         Answer your customers possible questions here, it will increase the
         conversion rate as well as support or chat requests.
-      </SectionTitle>
-      <Faq />
+      </SectionTitle> */}
+      {/* <Faq /> */}
       {/* <Cta /> */}
       <Footer />
       {/* <PopupWidget /> */}
