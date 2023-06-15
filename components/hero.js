@@ -49,29 +49,24 @@ const Hero = () => {
 
           <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
             <div className="pt-2 text-gray-400 dark:text-gray-400">
-             <strong><center>Kambing Class C</center></strong>
-              <Image src={img1} width={250} height={150}></Image>
-              <strong><center>2.000.000 - 3.000.000</center></strong>
-
+             <strong><center>Kambing Class A</center></strong>
+              <Image src={img1} width={250} height={80}></Image>
+              <strong><center>4.200.000 - 5.500.000</center></strong>
             </div>
             <div className="text-gray-400 dark:text-gray-400">
               <strong><center>Kambing Class B</center></strong>
               <Image src={img2} height={80} width={205}></Image>
-              <strong><center>3.200.000 - 4.000.000</center></strong>
-
+              <strong><center>3.500.000 - 4.000.000</center></strong>
             </div>
             <div className="text-gray-400 dark:text-gray-400">
-            <strong><center>Kambing Class A</center></strong>
+            <strong><center>Kambing Class C</center></strong>
               <Image src={img3} height={80} width={205}></Image>
-              <strong><center>4.200.000 - 5.500.000</center></strong>
-
-
+              <strong><center>2.500.000 - 3.300.000</center></strong>
             </div>
             <div className="text-gray-400 dark:text-gray-400">
             <strong> <center>Domba</center></strong>
               <Image src={img4} height={80} width={205}></Image>
               <strong><center>2.200.000 - 3.200.000</center></strong>
-
             </div>
             <div className="text-gray-400 dark:text-gray-400">
               <strong><center>Kambing Super</center></strong>
