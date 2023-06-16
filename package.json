@@ -1,7 +1,7 @@
 {
-  "name": "nextly-template",
+  "name": "husni-qurban",
   "version": "0.1.0",
-  "description": "Nextly Landing Page Template",
+  "description": "Husni Qurban",
   "private": true,
   "scripts": {
     "dev": "next dev",
